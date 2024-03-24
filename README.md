@@ -36,7 +36,7 @@ import cv2
 viedoCaptureObject=cv2.VideoCapture(0)
 while(True):
     ret,frame=viedoCaptureObject.read()
-    cv2.imwrite("NewPicture.jpg",frame)
+    cv2.imwrite("bharathraj.jpg",frame)
     result=False
 viedoCaptureObject.release()
 cv2.destroyAllWindows()
@@ -49,7 +49,7 @@ import cv2
 cap=cv2.VideoCapture(0)
 while True:
     ret,frame=cap.read()
-    cv2.imshow('212222230058_Beulah',frame)
+    cv2.imshow('Fox',frame)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -71,7 +71,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=smaller_frame
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222230058_Beulah',image)
+    cv2.imshow('212222230019_bharathraj',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -93,7 +93,7 @@ while True:
     image[height//2:, :width//2]=smaller_frame
     image[:height//2, width//2:]=cv2.rotate(smaller_frame,cv2.ROTATE_180)
     image[height//2:, width//2:]=smaller_frame
-    cv2.imshow('212222230058_Beulah',image)
+    cv2.imshow('212222230019_bharathraj',image)
     if cv2.waitKey(1)==ord('q'):
         break
 cap.release()
@@ -104,22 +104,22 @@ cv2.destroyAllWindows()
 
 ### i) Write the frame as JPG image
 
-![image](https://github.com/JoyceBeulah/Image_Acqusition-_using_Web_Camera/assets/118343698/43a47385-3718-40cb-9c50-daf9846dd415)
+![image](https://github.com/bharathraj1905/Image_Acqusition-_using_Web_Camera/assets/121490575/df71db39-50e7-49d0-bf06-b2c7034a028d)
 
 
 ### ii) Display the video
 
-![image](https://github.com/JoyceBeulah/Image_Acqusition-_using_Web_Camera/assets/118343698/4211cbaa-a7b9-4322-88be-9c288618c07e)
+![image](https://github.com/bharathraj1905/Image_Acqusition-_using_Web_Camera/assets/121490575/8b548b97-e447-4cf8-9a4f-e819b2326400)
 
 
 ### iii) Display the video by resizing the window
 
-![image](https://github.com/JoyceBeulah/Image_Acqusition-_using_Web_Camera/assets/118343698/b7ebb78e-d36b-4935-897c-b644089b84ec)
+![image](https://github.com/bharathraj1905/Image_Acqusition-_using_Web_Camera/assets/121490575/de16379c-dbfd-4325-a5af-71616c37e6e1)
 
 
 ### iv) Rotate and display the video
 
-![image](https://github.com/JoyceBeulah/Image_Acqusition-_using_Web_Camera/assets/118343698/cf8ae220-2674-4278-be42-57fcdcd35f20)
+![image](https://github.com/bharathraj1905/Image_Acqusition-_using_Web_Camera/assets/121490575/66b4665e-9b44-4f04-b785-75c457e472dd)
 
 
 ## Result:
